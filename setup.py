@@ -32,7 +32,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 # ninja build does not work unless include_dirs are abs path
 this_dir = os.path.dirname(os.path.abspath(__file__))
 
-PACKAGE_NAME = "mamba_ssm"
+PACKAGE_NAME = "mamba_ssm_4train"
 
 BASE_WHEEL_URL = "https://github.com/Hajime-Y/mamba/releases/download/{tag_name}/{wheel_name}"
 
